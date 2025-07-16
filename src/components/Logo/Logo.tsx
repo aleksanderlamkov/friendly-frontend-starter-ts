@@ -16,11 +16,7 @@ export default (props: TLogoProps) => {
       title={title}
       aria-label={title}
     >
-      <Image
-        className="logo__image"
-        src={logoImgSrc}
-        loading={loading}
-      />
+      <Image className="logo__image" src={logoImgSrc} loading={loading} />
     </a>
   )
 }

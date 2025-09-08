@@ -98,5 +98,9 @@ export default defineConfig({
   },
 
   // Можно прокинуть дополнительные опции в Vite
-  vite: {},
+  vite: {
+    css: {
+      devSourcemap: true,
+    },
+  },
 })
